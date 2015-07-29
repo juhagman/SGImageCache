@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.license      = { :type => "BSD", :file => "LICENSE" }
   s.author       = "SeatGeek"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/seatgeek/SGImageCache.git", :tag => "2.2.0" }
+  s.source       = { :git => "https://github.com/juhagman/SGImageCache.git", :tag => "2.2.0" }
   s.source_files = "*.{h,m}"
   s.requires_arc = true
-  s.dependency "SGHTTPRequest"
+  s.dependency "juhagman/SGHTTPRequest", 
   s.dependency "AFNetworking", '~> 2.0'
   s.dependency "MGEvents"
   s.dependency 'PromiseKit/base', '~> 1.5'
